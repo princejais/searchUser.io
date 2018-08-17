@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <section id="searchUsersOnGithub">
+      <div class="container">
+        <br><br>
+        <div class="row justify-content-center">
+          <h1>Search Users On GitHub</h1>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <form class="form-inline" autocomplete="off" id="submitForm">
+              <div class="autocomplete">
+                <label class="sr-only" for="searchUsers">GitHub UserName</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" name="searchUsers" id="searchUsers" placeholder="Jane Doe">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Search</button>
+            </form>
+        </div>
+        <br><br><br>
+        <div id="cardBlock" class="row justify-content-center">
+        </div>
+        <br><br><br>
+      </div>
+    </section>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/autocomplete.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
